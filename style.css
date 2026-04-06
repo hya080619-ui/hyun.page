@@ -1,52 +1,23 @@
-body {
+/* ===== HOME 전용 ===== */
+
+.home-body {
   margin: 0;
-  font-family: sans-serif;
 }
 
-/* header 고정 */
+.home {
+  height: 100vh;
+
+  background-image: url("https://res.cloudinary.com/dtt62e7sh/image/upload/v1775395721/h.a_2025_t3_rvsibx.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* header 항상 위에 */
 header {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 60px;
-  background: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 80px;
   z-index: 10;
-}
-
-/* 전체 구조 */
-.container {
-  display: flex;
-  margin-top: 60px;
-}
-
-/* 좌측 년도 */
-.sidebar {
-  position: fixed;
-  width: 150px;
-  height: calc(100vh - 60px);
-  padding: 20px;
-}
-
-/* 우측 콘텐츠 */
-.content {
-  margin-left: 150px;
-  height: calc(100vh - 60px);
-  overflow-y: scroll;
-  padding: 40px;
-}
-
-/* 썸네일 */
-.grid {
-  display: flex;
-  gap: 20px;
-}
-
-.box {
-  width: 200px;
-  height: 250px;
-  background: lightgray;
+  background: transparent;
 }
