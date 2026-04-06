@@ -21,3 +21,7 @@ header {
   z-index: 10;
   background: transparent;
 }
+.logo {
+  text-decoration: none;
+  color: inherit;
+}
